@@ -123,6 +123,141 @@ class_roster_c867/fast:
 	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/build
 .PHONY : class_roster_c867/fast
 
+NetworkStudent.o: NetworkStudent.cpp.o
+
+.PHONY : NetworkStudent.o
+
+# target to build an object file
+NetworkStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o
+.PHONY : NetworkStudent.cpp.o
+
+NetworkStudent.i: NetworkStudent.cpp.i
+
+.PHONY : NetworkStudent.i
+
+# target to preprocess a source file
+NetworkStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.i
+.PHONY : NetworkStudent.cpp.i
+
+NetworkStudent.s: NetworkStudent.cpp.s
+
+.PHONY : NetworkStudent.s
+
+# target to generate assembly for a file
+NetworkStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.s
+.PHONY : NetworkStudent.cpp.s
+
+Roster.o: Roster.cpp.o
+
+.PHONY : Roster.o
+
+# target to build an object file
+Roster.cpp.o:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/Roster.cpp.o
+.PHONY : Roster.cpp.o
+
+Roster.i: Roster.cpp.i
+
+.PHONY : Roster.i
+
+# target to preprocess a source file
+Roster.cpp.i:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/Roster.cpp.i
+.PHONY : Roster.cpp.i
+
+Roster.s: Roster.cpp.s
+
+.PHONY : Roster.s
+
+# target to generate assembly for a file
+Roster.cpp.s:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/Roster.cpp.s
+.PHONY : Roster.cpp.s
+
+SecurityStudent.o: SecurityStudent.cpp.o
+
+.PHONY : SecurityStudent.o
+
+# target to build an object file
+SecurityStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o
+.PHONY : SecurityStudent.cpp.o
+
+SecurityStudent.i: SecurityStudent.cpp.i
+
+.PHONY : SecurityStudent.i
+
+# target to preprocess a source file
+SecurityStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.i
+.PHONY : SecurityStudent.cpp.i
+
+SecurityStudent.s: SecurityStudent.cpp.s
+
+.PHONY : SecurityStudent.s
+
+# target to generate assembly for a file
+SecurityStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.s
+.PHONY : SecurityStudent.cpp.s
+
+SoftwareStudent.o: SoftwareStudent.cpp.o
+
+.PHONY : SoftwareStudent.o
+
+# target to build an object file
+SoftwareStudent.cpp.o:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o
+.PHONY : SoftwareStudent.cpp.o
+
+SoftwareStudent.i: SoftwareStudent.cpp.i
+
+.PHONY : SoftwareStudent.i
+
+# target to preprocess a source file
+SoftwareStudent.cpp.i:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.i
+.PHONY : SoftwareStudent.cpp.i
+
+SoftwareStudent.s: SoftwareStudent.cpp.s
+
+.PHONY : SoftwareStudent.s
+
+# target to generate assembly for a file
+SoftwareStudent.cpp.s:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.s
+.PHONY : SoftwareStudent.cpp.s
+
+Student.o: Student.cpp.o
+
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles/class_roster_c867.dir/build.make CMakeFiles/class_roster_c867.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... class_roster_c867"
+	@echo "... NetworkStudent.o"
+	@echo "... NetworkStudent.i"
+	@echo "... NetworkStudent.s"
+	@echo "... Roster.o"
+	@echo "... Roster.i"
+	@echo "... Roster.s"
+	@echo "... SecurityStudent.o"
+	@echo "... SecurityStudent.i"
+	@echo "... SecurityStudent.s"
+	@echo "... SoftwareStudent.o"
+	@echo "... SoftwareStudent.i"
+	@echo "... SoftwareStudent.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

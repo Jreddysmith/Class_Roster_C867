@@ -80,6 +80,39 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/Degree.h">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/NetworkStudent.cpp">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/NetworkStudent.h">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/SecurityStudent.cpp">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/SecurityStudent.h">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.cpp">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.h">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp">
+			<Option target="class_roster_c867"/>
+		</Unit>
+		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/Student.h">
+			<Option target="class_roster_c867"/>
+		</Unit>
 		<Unit filename="/Users/Jarred/Documents/class_projects/class_roster_c867/main.cpp">
 			<Option target="class_roster_c867"/>
 		</Unit>

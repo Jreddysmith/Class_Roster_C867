@@ -70,17 +70,92 @@ CMakeFiles/class_roster_c867.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_roster_c867.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jarred/Documents/class_projects/class_roster_c867/main.cpp -o CMakeFiles/class_roster_c867.dir/main.cpp.s
 
+CMakeFiles/class_roster_c867.dir/Student.cpp.o: CMakeFiles/class_roster_c867.dir/flags.make
+CMakeFiles/class_roster_c867.dir/Student.cpp.o: ../Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/class_roster_c867.dir/Student.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_roster_c867.dir/Student.cpp.o -c /Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp
+
+CMakeFiles/class_roster_c867.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_roster_c867.dir/Student.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp > CMakeFiles/class_roster_c867.dir/Student.cpp.i
+
+CMakeFiles/class_roster_c867.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_roster_c867.dir/Student.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp -o CMakeFiles/class_roster_c867.dir/Student.cpp.s
+
+CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o: CMakeFiles/class_roster_c867.dir/flags.make
+CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o: ../NetworkStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o -c /Users/Jarred/Documents/class_projects/class_roster_c867/NetworkStudent.cpp
+
+CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jarred/Documents/class_projects/class_roster_c867/NetworkStudent.cpp > CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.i
+
+CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jarred/Documents/class_projects/class_roster_c867/NetworkStudent.cpp -o CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.s
+
+CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o: CMakeFiles/class_roster_c867.dir/flags.make
+CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o: ../SecurityStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o -c /Users/Jarred/Documents/class_projects/class_roster_c867/SecurityStudent.cpp
+
+CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jarred/Documents/class_projects/class_roster_c867/SecurityStudent.cpp > CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.i
+
+CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jarred/Documents/class_projects/class_roster_c867/SecurityStudent.cpp -o CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.s
+
+CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o: CMakeFiles/class_roster_c867.dir/flags.make
+CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o: ../SoftwareStudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o -c /Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.cpp
+
+CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.cpp > CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.i
+
+CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.cpp -o CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.s
+
+CMakeFiles/class_roster_c867.dir/Roster.cpp.o: CMakeFiles/class_roster_c867.dir/flags.make
+CMakeFiles/class_roster_c867.dir/Roster.cpp.o: ../Roster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/class_roster_c867.dir/Roster.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_roster_c867.dir/Roster.cpp.o -c /Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp
+
+CMakeFiles/class_roster_c867.dir/Roster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_roster_c867.dir/Roster.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp > CMakeFiles/class_roster_c867.dir/Roster.cpp.i
+
+CMakeFiles/class_roster_c867.dir/Roster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_roster_c867.dir/Roster.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp -o CMakeFiles/class_roster_c867.dir/Roster.cpp.s
+
 # Object files for target class_roster_c867
 class_roster_c867_OBJECTS = \
-"CMakeFiles/class_roster_c867.dir/main.cpp.o"
+"CMakeFiles/class_roster_c867.dir/main.cpp.o" \
+"CMakeFiles/class_roster_c867.dir/Student.cpp.o" \
+"CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o" \
+"CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o" \
+"CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o" \
+"CMakeFiles/class_roster_c867.dir/Roster.cpp.o"
 
 # External object files for target class_roster_c867
 class_roster_c867_EXTERNAL_OBJECTS =
 
 class_roster_c867: CMakeFiles/class_roster_c867.dir/main.cpp.o
+class_roster_c867: CMakeFiles/class_roster_c867.dir/Student.cpp.o
+class_roster_c867: CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o
+class_roster_c867: CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o
+class_roster_c867: CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o
+class_roster_c867: CMakeFiles/class_roster_c867.dir/Roster.cpp.o
 class_roster_c867: CMakeFiles/class_roster_c867.dir/build.make
 class_roster_c867: CMakeFiles/class_roster_c867.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable class_roster_c867"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable class_roster_c867"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/class_roster_c867.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
