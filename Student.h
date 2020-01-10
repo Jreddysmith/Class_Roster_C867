@@ -8,24 +8,30 @@ using namespace std;
 class Student {
 
 protected:
-    int student_ID;
+    string student_ID;
     string first_name;
     string last_name;
     string email;
     int age;
-    int complete_num_days[10000] = {};
+    string complete_num_days;
     string degree_types;
 
 public:
     Student();
-    Student(int student_ID, string first_name, string last_name, string email, int age, string degree_types);
+    Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days, string degree_types);
 
 
 
     virtual ~Student();
 
-    void set_student_id(int student_ID);
-    int get_student_id();
+    void set_student_id(string student_ID);
+    string get_student_id();
+
+    void set_first_name(string first_name);
+    string get_first_name();
+
+    void set_last_name(string last_name);
+    string get_last_name();
 
 
 };

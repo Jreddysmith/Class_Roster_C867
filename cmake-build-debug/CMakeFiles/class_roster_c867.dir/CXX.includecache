@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp
+Roster.h
+/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h
+iostream
+-
+string
+-
+
+/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h
+
 /Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp
 Student.h
 /Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
 
 /Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
+string
+-
+
+/Users/Jarred/Documents/class_projects/class_roster_c867/main.cpp
+iostream
+-
+string
+-
 

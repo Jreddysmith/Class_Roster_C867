@@ -13,12 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1488aa-8e77-48a0-896d-c4b16261daa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578601786608</updated>
-      <workItem from="1578601788229" duration="3977000" />
+      <workItem from="1578601788229" duration="6027000" />
     </task>
     <task id="LOCAL-00001" summary="Trying it with IDE">
       <created>1578604219504</created>
@@ -95,25 +95,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Trying it with IDE" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1578686099033">
+      <screen x="0" y="23" width="1280" height="735" />
+    </state>
+    <state x="453" y="111" key="#com.intellij.ide.util.MemberChooser/0.23.1280.735@0.23.1280.735" timestamp="1578686099033" />
     <state x="235" y="23" key="CommitChangelistDialog2" timestamp="1578604219030">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="235" y="23" key="CommitChangelistDialog2/0.23.1280.735@0.23.1280.735" timestamp="1578604219030" />
-    <state width="1238" height="104" key="GridCell.Tab.0.bottom" timestamp="1578611566320">
+    <state width="1238" height="104" key="GridCell.Tab.0.bottom" timestamp="1578684925302">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="104" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578611566320" />
-    <state width="1238" height="104" key="GridCell.Tab.0.center" timestamp="1578611566319">
+    <state width="1238" height="104" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578684925302" />
+    <state width="1238" height="104" key="GridCell.Tab.0.center" timestamp="1578684925301">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="104" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578611566319" />
-    <state width="1238" height="104" key="GridCell.Tab.0.left" timestamp="1578611566318">
+    <state width="1238" height="104" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578684925301" />
+    <state width="1238" height="104" key="GridCell.Tab.0.left" timestamp="1578684925300">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="104" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578611566318" />
-    <state width="1238" height="104" key="GridCell.Tab.0.right" timestamp="1578611566320">
+    <state width="1238" height="104" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578684925300" />
+    <state width="1238" height="104" key="GridCell.Tab.0.right" timestamp="1578684925302">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="104" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578611566320" />
+    <state width="1238" height="104" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578684925302" />
   </component>
 </project>
