@@ -1,13 +1,13 @@
-//
-// Created by Jarred Smith on 1/9/20.
-//
-
 #ifndef CLASS_ROSTER_C867_SOFTWARESTUDENT_H
 #define CLASS_ROSTER_C867_SOFTWARESTUDENT_H
 
+#include "Student.h"
 
-class SoftwareStudent {
+class SoftwareStudent : public Student {
 
+public:
+    void print();
+    void get_degree_plan() override;
 };
 
 

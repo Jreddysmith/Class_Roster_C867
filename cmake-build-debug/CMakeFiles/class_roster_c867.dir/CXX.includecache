@@ -9,6 +9,8 @@
 /Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp
 Roster.h
 /Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h
+Student.h
+/Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
 iostream
 -
 string
@@ -16,17 +18,7 @@ string
 
 /Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h
 
-/Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp
-Student.h
 /Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
-
-/Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
-string
--
-
-/Users/Jarred/Documents/class_projects/class_roster_c867/main.cpp
-iostream
--
 string
 -
 
