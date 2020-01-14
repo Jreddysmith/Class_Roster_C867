@@ -7,6 +7,7 @@ CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o: ../Student.h
 
 CMakeFiles/class_roster_c867.dir/Roster.cpp.o: ../Roster.cpp
 CMakeFiles/class_roster_c867.dir/Roster.cpp.o: ../Roster.h
+CMakeFiles/class_roster_c867.dir/Roster.cpp.o: ../SoftwareStudent.h
 CMakeFiles/class_roster_c867.dir/Roster.cpp.o: ../Student.h
 
 CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o: ../SecurityStudent.cpp

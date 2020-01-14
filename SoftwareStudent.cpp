@@ -6,6 +6,4 @@
 
 
 
-void Student::get_degree_plan() {
 
-}

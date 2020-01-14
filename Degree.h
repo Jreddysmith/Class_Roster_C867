@@ -8,6 +8,9 @@
 
 class Degree {
 
+    enum Degree_Plan {
+        SECURITY, NETWORKING, SOFTWARE
+    };
 };
 
 

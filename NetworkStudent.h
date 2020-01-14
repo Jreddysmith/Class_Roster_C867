@@ -6,7 +6,7 @@
 class NetworkStudent : public Student {
 
 public:
-    void print();
+    void print() override;
 };
 
 

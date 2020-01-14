@@ -13,14 +13,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1488aa-8e77-48a0-896d-c4b16261daa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Degree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Degree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkStudent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityStudent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoftwareStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoftwareStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578601786608</updated>
       <workItem from="1578601788229" duration="7856000" />
-      <workItem from="1578780188806" duration="3511000" />
+      <workItem from="1578780188806" duration="5518000" />
     </task>
     <task id="LOCAL-00001" summary="Trying it with IDE">
       <created>1578604219504</created>
@@ -103,22 +102,22 @@
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="235" y="23" key="CommitChangelistDialog2/0.23.1280.735@0.23.1280.735" timestamp="1578604219030" />
-    <state width="1238" height="101" key="GridCell.Tab.0.bottom" timestamp="1578781570309">
+    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1578951130218">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="101" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578781570309" />
-    <state width="1238" height="101" key="GridCell.Tab.0.center" timestamp="1578781570307">
+    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578951130218" />
+    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1578951130216">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="101" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578781570307" />
-    <state width="1238" height="101" key="GridCell.Tab.0.left" timestamp="1578781570305">
+    <state width="1238" height="205" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578951130216" />
+    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1578951130215">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="101" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578781570305" />
-    <state width="1238" height="101" key="GridCell.Tab.0.right" timestamp="1578781570308">
+    <state width="1238" height="205" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578951130215" />
+    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1578951130217">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
-    <state width="1238" height="101" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578781570308" />
+    <state width="1238" height="205" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578951130217" />
     <state x="333" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1578780188888">
       <screen x="0" y="23" width="1280" height="735" />
     </state>

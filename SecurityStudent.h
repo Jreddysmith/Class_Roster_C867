@@ -7,7 +7,7 @@
 class SecurityStudent : public Student{
 
 public:
-    void print();
+    void print() override ;
     void get_degree_plan() override;
 
 };
