@@ -4,14 +4,14 @@
 #include <string>
 
 
-Student::Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days, string degree_types) {
+Student::Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days) {
     this->student_ID = student_ID;
     this->first_name = first_name;
     this->last_name = last_name;
     this->email = email;
     this->age = age;
     this->complete_num_days = complete_num_days;
-    this->degree_types = degree_types;
+
 }
 
 void Student::set_student_id(string student_ID){
@@ -75,7 +75,7 @@ void Student::get_degree_plan() {
 }
 
 void Student::print() {
-    cout << "student info here" << endl;
+    cout << this->student_ID <<"\t" << this->first_name <<"\t"<< this->last_name << "\t" <<  this->email << "\t"<< this->complete_num_days << "\t" << endl;
 }
 
 
@@ -86,7 +86,6 @@ Student::Student(){
     this->email;
     this->age;
     this->complete_num_days;
-    this->degree_types;
 };
 
 Student::~Student() = default;

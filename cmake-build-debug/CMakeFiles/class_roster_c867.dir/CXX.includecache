@@ -6,25 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp
-Roster.h
-/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.cpp
 Student.h
-/Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
-SoftwareStudent.h
-/Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
 iostream
 -
 string
 -
 
-/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.h
-
-/Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.h
-Student.h
-/Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
-
-/Users/Jarred/Documents/class_projects/class_roster_c867/Student.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
 string
 -
 

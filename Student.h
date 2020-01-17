@@ -20,7 +20,7 @@ public:
     string degree_types;
 
     Student();
-    Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days, string degree_types);
+    Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days);
 
 
 

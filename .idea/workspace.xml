@@ -13,13 +13,41 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1488aa-8e77-48a0-896d-c4b16261daa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Degree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Degree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkStudent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityStudent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +71,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="class_roster_c867" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_roster_c867" TARGET_NAME="class_roster_c867" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_roster_c867" RUN_TARGET_NAME="class_roster_c867">
+    <configuration name="class_roster_c867" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="class_roster_c867" TARGET_NAME="class_roster_c867" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="class_roster_c867" RUN_TARGET_NAME="class_roster_c867">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Application.class_roster_c867" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -75,6 +116,9 @@
       <updated>1578601786608</updated>
       <workItem from="1578601788229" duration="7856000" />
       <workItem from="1578780188806" duration="5518000" />
+      <workItem from="1579028790056" duration="428000" />
+      <workItem from="1579029583553" duration="51000" />
+      <workItem from="1579041898000" duration="4377000" />
     </task>
     <task id="LOCAL-00001" summary="Trying it with IDE">
       <created>1578604219504</created>
@@ -94,6 +138,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Trying it with IDE" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="738" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579028736824">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="738" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579028736824" />
     <state x="453" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1578686099033">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
@@ -102,25 +150,42 @@
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="235" y="23" key="CommitChangelistDialog2/0.23.1280.735@0.23.1280.735" timestamp="1578604219030" />
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1578951130218">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state x="798" y="284" width="515" height="469" key="EnvironmentVariablesDialog" timestamp="1579042012269">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state x="798" y="284" width="515" height="469" key="EnvironmentVariablesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579042012269" />
+    <state x="1057" y="263" width="424" height="510" key="FileChooserDialogImpl" timestamp="1579042033118">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1057" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579042033118" />
+    <state width="1296" height="287" key="GridCell.Tab.0.bottom" timestamp="1579077134050">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1296" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579077134050" />
     <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578951130218" />
-    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1578951130216">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1296" height="287" key="GridCell.Tab.0.center" timestamp="1579077134050">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state width="1296" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579077134050" />
     <state width="1238" height="205" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578951130216" />
-    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1578951130215">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1296" height="287" key="GridCell.Tab.0.left" timestamp="1579077134050">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state width="1296" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579077134050" />
     <state width="1238" height="205" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578951130215" />
-    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1578951130217">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1296" height="287" key="GridCell.Tab.0.right" timestamp="1579077134050">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state width="1296" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579077134050" />
     <state width="1238" height="205" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578951130217" />
-    <state x="333" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1578780188888">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state x="565" y="155" key="SettingsEditor" timestamp="1579042024146">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state x="565" y="155" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1579042024146" />
+    <state x="666" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1579029585026">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="666" y="290" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579029585026" />
     <state x="333" y="228" key="com.intellij.ide.util.TipDialog/0.23.1280.735@0.23.1280.735" timestamp="1578780188888" />
   </component>
 </project>

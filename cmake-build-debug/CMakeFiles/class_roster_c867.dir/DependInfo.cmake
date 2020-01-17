@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Jarred/Documents/class_projects/class_roster_c867/NetworkStudent.cpp" "/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o"
-  "/Users/Jarred/Documents/class_projects/class_roster_c867/Roster.cpp" "/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o"
-  "/Users/Jarred/Documents/class_projects/class_roster_c867/SecurityStudent.cpp" "/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o"
-  "/Users/Jarred/Documents/class_projects/class_roster_c867/SoftwareStudent.cpp" "/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o"
-  "/Users/Jarred/Documents/class_projects/class_roster_c867/Student.cpp" "/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o"
-  "/Users/Jarred/Documents/class_projects/class_roster_c867/main.cpp" "/Users/Jarred/Documents/class_projects/class_roster_c867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/main.cpp.o"
+  "/home/ryzen/CLionProjects/Class_Roster_C867/NetworkStudent.cpp" "/home/ryzen/CLionProjects/Class_Roster_C867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/NetworkStudent.cpp.o"
+  "/home/ryzen/CLionProjects/Class_Roster_C867/Roster.cpp" "/home/ryzen/CLionProjects/Class_Roster_C867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o"
+  "/home/ryzen/CLionProjects/Class_Roster_C867/SecurityStudent.cpp" "/home/ryzen/CLionProjects/Class_Roster_C867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SecurityStudent.cpp.o"
+  "/home/ryzen/CLionProjects/Class_Roster_C867/SoftwareStudent.cpp" "/home/ryzen/CLionProjects/Class_Roster_C867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o"
+  "/home/ryzen/CLionProjects/Class_Roster_C867/Student.cpp" "/home/ryzen/CLionProjects/Class_Roster_C867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o"
+  "/home/ryzen/CLionProjects/Class_Roster_C867/main.cpp" "/home/ryzen/CLionProjects/Class_Roster_C867/cmake-build-debug/CMakeFiles/class_roster_c867.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
