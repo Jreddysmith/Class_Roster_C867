@@ -6,12 +6,10 @@
 #define CLASS_ROSTER_C867_DEGREE_H
 
 
-class Degree {
 
-    enum Degree_Plan {
+enum Degree_plan {
         SECURITY, NETWORKING, SOFTWARE
     };
-};
 
 
 #endif //CLASS_ROSTER_C867_DEGREE_H

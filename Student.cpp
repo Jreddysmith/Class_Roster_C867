@@ -1,18 +1,23 @@
 #include "Student.h"
-
+#include "Degree.h"
 #include <iostream>
 #include <string>
 
-
-Student::Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days) {
+Student::Student(string student_ID, string first_name, string last_name, string email, int age, Degree_plan degree) {
     this->student_ID = student_ID;
     this->first_name = first_name;
     this->last_name = last_name;
     this->email = email;
     this->age = age;
-    this->complete_num_days = complete_num_days;
+    this->complete_num_days[3];
 
 }
+
+Student::Student(){
+
+};
+
+Student::~Student() = default;
 
 void Student::set_student_id(string student_ID){
     this->student_ID = student_ID;
@@ -54,24 +59,36 @@ int Student::get_age(){
     return age;
 }
 
-void Student::set_complete_num_days(string complete_num_days) {
-    this->complete_num_days = complete_num_days;
+void Student::set_complete_num_days1(int complete_num_days) {
+    this->complete_num_days[0] = complete_num_days;
 }
 
-string Student::get_complete_num_days() {
-    return complete_num_days;
+int Student::get_complete_num_days1() {
+    return complete_num_days[0];
 }
 
-void Student::set_degree_types(string degree_types){
-    this->degree_types = degree_types;
+void Student::set_complete_num_days2(int complete_num_days) {
+    this->complete_num_days[1] = complete_num_days;
 }
 
-string Student::get_degree_types() {
-    return degree_types;
+int Student::get_complete_num_days2() {
+    return complete_num_days[1];
 }
 
-void Student::get_degree_plan() {
+void Student::set_complete_num_days3(int complete_num_days) {
+    this->complete_num_days[2] = complete_num_days;
+}
 
+int Student::get_complete_num_days3() {
+    return complete_num_days[2];
+}
+
+void Student::set_degree_plan(Degree_plan degree) {
+    this->degree = degree;
+}
+
+Degree_plan Student::get_degree_plan() {
+    return degree;
 }
 
 void Student::print() {
@@ -79,14 +96,4 @@ void Student::print() {
 }
 
 
-Student::Student(){
-    this->student_ID;
-    this->first_name;
-    this->last_name;
-    this->email;
-    this->age;
-    this->complete_num_days;
-};
-
-Student::~Student() = default;
 

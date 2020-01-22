@@ -3,3 +3,8 @@
 //
 
 #include "SecurityStudent.h"
+
+
+Degree_plan SecurityStudent::get_degree_plan() {
+    return degree;
+}

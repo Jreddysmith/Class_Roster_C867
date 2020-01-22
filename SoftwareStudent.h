@@ -2,12 +2,21 @@
 #define CLASS_ROSTER_C867_SOFTWARESTUDENT_H
 
 #include "Student.h"
+#include "Degree.h"
+#include <string>
+
+using namespace std;
 
 class SoftwareStudent : public Student {
 
+protected:
+    Degree_plan degree = SOFTWARE;
+
 public:
-    void print() override ;
-    void get_degree_plan() override;
+
+
+    using Student::Student;
+    Degree_plan get_degree_plan() override;
 };
 
 

@@ -2,6 +2,7 @@
 #define CLASS_ROSTER_C867_STUDENT_H
 
 #include <string>
+#include "Degree.h"
 
 using namespace std;
 
@@ -16,17 +17,17 @@ public:
     string last_name;
     string email;
     int age;
-    string complete_num_days;
-    string degree_types;
+    int complete_num_days[3];
+    Degree_plan degree;
+
 
     Student();
-    Student(string student_ID, string first_name, string last_name, string email, int age, string complete_num_days);
+    Student(string student_ID, string first_name, string last_name, string email, int age, Degree_plan degree);
+    ~Student();
 
 
 
-    virtual ~Student();
-    void virtual print();
-    virtual void get_degree_plan();
+    virtual void print();
 
     void set_student_id(string student_ID);
     string get_student_id();
@@ -43,12 +44,17 @@ public:
     void set_age(int age);
     int get_age();
 
-    void set_complete_num_days(string complete_num_days);
-    string get_complete_num_days();
+    void set_complete_num_days1(int complete_num_days);
+    int get_complete_num_days1();
 
-    void set_degree_types(string degree_types);
-    string get_degree_types();
+    void set_complete_num_days2(int complete_num_days);
+    int get_complete_num_days2();
 
+    void set_complete_num_days3(int complete_num_days);
+    int get_complete_num_days3();
+
+    void set_degree_plan(Degree_plan degree);
+    virtual Degree_plan get_degree_plan() = 0;
 
 };
 

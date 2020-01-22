@@ -3,3 +3,7 @@
 //
 
 #include "NetworkStudent.h"
+
+Degree_plan NetworkStudent::get_degree_plan() {
+    return degree;
+}
