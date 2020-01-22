@@ -3,6 +3,9 @@
 
 #include "Student.h"
 #include "Degree.h"
+#include <string>
+
+using namespace std;
 
 
 class SecurityStudent : public Student{

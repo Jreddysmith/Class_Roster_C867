@@ -9,7 +9,7 @@ Student::Student(string student_ID, string first_name, string last_name, string 
     this->last_name = last_name;
     this->email = email;
     this->age = age;
-    this->complete_num_days[3];
+    this->complete_num_days;
 
 }
 
@@ -92,7 +92,22 @@ Degree_plan Student::get_degree_plan() {
 }
 
 void Student::print() {
-    cout << this->student_ID <<"\t" << this->first_name <<"\t"<< this->last_name << "\t" <<  this->email << "\t"<< this->complete_num_days << "\t" << endl;
+    string degreePlan;
+    if(get_degree_plan() == SECURITY) {
+        degreePlan = "SECURITY";
+    }
+    if(get_degree_plan() == NETWORKING) {
+        degreePlan = "NETWORKING";
+    }
+    if(get_degree_plan() == SOFTWARE) {
+        degreePlan = "SOFTWARE";
+    } else {
+       degreePlan = "INCORRECT DEGREE PLAN";
+    }
+
+    cout <<"\t" << this->student_ID <<"\t" << this->first_name <<"\t"<< this->last_name <<
+    "\t" << this->email << "\t"<< "{" << this->complete_num_days[0] << "\t" << this->complete_num_days[1] <<
+    "\t" << this->complete_num_days[2] << "}" << "\t" << degreePlan << endl;
 }
 
 

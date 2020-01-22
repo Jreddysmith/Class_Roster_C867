@@ -8,11 +8,21 @@
 
 /home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
 
+/home/ryzen/CLionProjects/Class_Roster_C867/NetworkStudent.h
+Student.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
+Degree.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
+
 /home/ryzen/CLionProjects/Class_Roster_C867/Roster.cpp
 Roster.h
 /home/ryzen/CLionProjects/Class_Roster_C867/Roster.h
 Student.h
 /home/ryzen/CLionProjects/Class_Roster_C867/Student.h
+NetworkStudent.h
+/home/ryzen/CLionProjects/Class_Roster_C867/NetworkStudent.h
+SecurityStudent.h
+/home/ryzen/CLionProjects/Class_Roster_C867/SecurityStudent.h
 SoftwareStudent.h
 /home/ryzen/CLionProjects/Class_Roster_C867/SoftwareStudent.h
 regex
@@ -23,12 +33,32 @@ string
 -
 
 /home/ryzen/CLionProjects/Class_Roster_C867/Roster.h
+string
+-
+
+/home/ryzen/CLionProjects/Class_Roster_C867/SecurityStudent.h
+Student.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
+Degree.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
+string
+-
 
 /home/ryzen/CLionProjects/Class_Roster_C867/SoftwareStudent.h
 Student.h
 /home/ryzen/CLionProjects/Class_Roster_C867/Student.h
 Degree.h
 /home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
+string
+-
+
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.cpp
+Student.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
+Degree.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
+iostream
+-
 string
 -
 

@@ -13,19 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1488aa-8e77-48a0-896d-c4b16261daa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Degree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Degree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkStudent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkStudent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roster.h" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityStudent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityStudent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareStudent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/SoftwareStudent.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" afterDir="false" />
     </list>
@@ -83,6 +78,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,7 +98,7 @@
       <workItem from="1579235830200" duration="10545000" />
       <workItem from="1579554891189" duration="1192000" />
       <workItem from="1579576539745" duration="887000" />
-      <workItem from="1579651454816" duration="8516000" />
+      <workItem from="1579651454816" duration="15140000" />
     </task>
     <task id="LOCAL-00001" summary="Trying it with IDE">
       <created>1578604219504</created>
@@ -146,26 +142,30 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1057" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579042033118" />
-    <state width="1296" height="287" key="GridCell.Tab.0.bottom" timestamp="1579669945601">
+    <state width="1296" height="287" key="GridCell.Tab.0.bottom" timestamp="1579684614300">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579669945601" />
+    <state width="1296" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614300" />
     <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578951130218" />
-    <state width="1296" height="287" key="GridCell.Tab.0.center" timestamp="1579669945601">
+    <state width="1296" height="287" key="GridCell.Tab.0.center" timestamp="1579684614300">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579669945601" />
+    <state width="1296" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614300" />
     <state width="1238" height="205" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578951130216" />
-    <state width="1296" height="287" key="GridCell.Tab.0.left" timestamp="1579669945600">
+    <state width="1296" height="287" key="GridCell.Tab.0.left" timestamp="1579684614299">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579669945600" />
+    <state width="1296" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614299" />
     <state width="1238" height="205" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578951130215" />
-    <state width="1296" height="287" key="GridCell.Tab.0.right" timestamp="1579669945601">
+    <state width="1296" height="287" key="GridCell.Tab.0.right" timestamp="1579684614300">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579669945601" />
+    <state width="1296" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614300" />
     <state width="1238" height="205" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578951130217" />
+    <state x="1674" y="233" width="411" height="571" key="RollbackChangesDialog" timestamp="1579683822578">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1674" y="233" width="411" height="571" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579683822578" />
     <state x="565" y="155" key="SettingsEditor" timestamp="1579042024146">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -175,5 +175,9 @@
     </state>
     <state x="666" y="290" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579651455593" />
     <state x="333" y="228" key="com.intellij.ide.util.TipDialog/0.23.1280.735@0.23.1280.735" timestamp="1578780188888" />
+    <state x="1690" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579675418914">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1690" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1579675418914" />
   </component>
 </project>

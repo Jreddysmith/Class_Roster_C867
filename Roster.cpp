@@ -1,5 +1,7 @@
 #include "Roster.h"
 #include "Student.h"
+#include "NetworkStudent.h"
+#include "SecurityStudent.h"
 #include "SoftwareStudent.h"
 #include <regex>
 #include <iostream>
@@ -35,23 +37,39 @@ void printInvalidEmails(vector<Student> &emails) {
     }
 }
 
+void printByDegreeProgram(vector<Student> degrees, int degreeProgram) {
+    for(auto &i: degrees) {
+        if (i.degree == degreeProgram) {
+            i.print();
+        }
+    }
+}
+
+void remove(string studentID) {
+
+}
+
+Roster::~Roster() = default;
 
 
 int main() {
+    cout << "====Class Roster====" << endl;
+    cout << "====SCRIPTING AND PROGRAMMING APPLICATIONS — C867====" << endl;
+    cout << "====C++" << "Student ID: #000936781" << " Name: Jarred Smith====" << endl;
+
 
     SoftwareStudent jarred;
-    jarred.set_complete_num_days1(3);
-    jarred.set_complete_num_days2(43);
-    jarred.set_complete_num_days3(4);
-    cout << jarred.get_complete_num_days1() << endl;
-    cout << jarred.get_complete_num_days2() << endl;
-    cout << jarred.get_complete_num_days3() << endl;
+    NetworkStudent jessica;
+    SecurityStudent sam;
+    jessica.set_first_name("Jessica");
+    jarred.set_first_name("Jarred");
+    sam.set_first_name("Sam");
 
-    cout << jarred.get_degree_plan() << " Test" << endl;
+    jarred.print();
+    jessica.print();
+    sam.print();
 
-    cout << printDaysInCourse(jarred.complete_num_days) << endl;
+    Roster classRoster;
 
-
-    cout << "Hello Friend! in Roster!" << endl;
     return 0;
 }

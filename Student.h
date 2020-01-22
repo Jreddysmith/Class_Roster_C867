@@ -17,7 +17,7 @@ public:
     string last_name;
     string email;
     int age;
-    int complete_num_days[3];
+    int complete_num_days[3] = {0};
     Degree_plan degree;
 
 
