@@ -15,13 +15,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Roster.h" beforeDir="false" afterPath="$PROJECT_DIR$/Roster.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityStudent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityStudent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityStudent.h" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityStudent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Roster.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_roster_c867.dir/Student.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_roster_c867" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,8 @@
       <workItem from="1579235830200" duration="10545000" />
       <workItem from="1579554891189" duration="1192000" />
       <workItem from="1579576539745" duration="887000" />
-      <workItem from="1579651454816" duration="15140000" />
+      <workItem from="1579651454816" duration="15526000" />
+      <workItem from="1579737340879" duration="8673000" />
     </task>
     <task id="LOCAL-00001" summary="Trying it with IDE">
       <created>1578604219504</created>
@@ -142,25 +140,25 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1057" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579042033118" />
-    <state width="1296" height="287" key="GridCell.Tab.0.bottom" timestamp="1579684614300">
+    <state width="1296" height="287" key="GridCell.Tab.0.bottom" timestamp="1579753406642">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614300" />
+    <state width="1296" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579753406642" />
     <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1578951130218" />
-    <state width="1296" height="287" key="GridCell.Tab.0.center" timestamp="1579684614300">
+    <state width="1296" height="287" key="GridCell.Tab.0.center" timestamp="1579753406642">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614300" />
+    <state width="1296" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579753406642" />
     <state width="1238" height="205" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1578951130216" />
-    <state width="1296" height="287" key="GridCell.Tab.0.left" timestamp="1579684614299">
+    <state width="1296" height="287" key="GridCell.Tab.0.left" timestamp="1579753406642">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614299" />
+    <state width="1296" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579753406642" />
     <state width="1238" height="205" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1578951130215" />
-    <state width="1296" height="287" key="GridCell.Tab.0.right" timestamp="1579684614300">
+    <state width="1296" height="287" key="GridCell.Tab.0.right" timestamp="1579753406642">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1296" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579684614300" />
+    <state width="1296" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579753406642" />
     <state width="1238" height="205" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1578951130217" />
     <state x="1674" y="233" width="411" height="571" key="RollbackChangesDialog" timestamp="1579683822578">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -170,14 +168,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="565" y="155" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1579042024146" />
-    <state x="666" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1579651455593">
+    <state x="666" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1579737346510">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="666" y="290" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579651455593" />
+    <state x="666" y="290" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579737346510" />
     <state x="333" y="228" key="com.intellij.ide.util.TipDialog/0.23.1280.735@0.23.1280.735" timestamp="1578780188888" />
     <state x="1690" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579675418914">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1690" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1579675418914" />
+    <state x="1219" y="252" width="1490" height="1031" key="dock-window-1" timestamp="1579740914738">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1219" y="252" width="1490" height="1031" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1579740914738" />
   </component>
 </project>

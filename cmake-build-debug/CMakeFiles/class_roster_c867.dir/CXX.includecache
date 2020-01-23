@@ -25,6 +25,8 @@ SecurityStudent.h
 /home/ryzen/CLionProjects/Class_Roster_C867/SecurityStudent.h
 SoftwareStudent.h
 /home/ryzen/CLionProjects/Class_Roster_C867/SoftwareStudent.h
+Degree.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
 regex
 -
 iostream
@@ -35,6 +37,10 @@ string
 /home/ryzen/CLionProjects/Class_Roster_C867/Roster.h
 string
 -
+Degree.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
+Student.h
+/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
 
 /home/ryzen/CLionProjects/Class_Roster_C867/SecurityStudent.h
 Student.h
@@ -49,16 +55,6 @@ Student.h
 /home/ryzen/CLionProjects/Class_Roster_C867/Student.h
 Degree.h
 /home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
-string
--
-
-/home/ryzen/CLionProjects/Class_Roster_C867/Student.cpp
-Student.h
-/home/ryzen/CLionProjects/Class_Roster_C867/Student.h
-Degree.h
-/home/ryzen/CLionProjects/Class_Roster_C867/Degree.h
-iostream
--
 string
 -
 

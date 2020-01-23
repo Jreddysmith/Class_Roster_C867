@@ -17,12 +17,12 @@ public:
     string last_name;
     string email;
     int age;
-    int complete_num_days[3] = {0};
+    int* complete_num_days;
     Degree_plan degree;
 
 
     Student();
-    Student(string student_ID, string first_name, string last_name, string email, int age, Degree_plan degree);
+    Student(string student_ID, string first_name, string last_name, string email, int age, int complete_num_days[], Degree_plan degree);
     ~Student();
 
 

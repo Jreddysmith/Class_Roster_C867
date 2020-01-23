@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-Student::Student(string student_ID, string first_name, string last_name, string email, int age, Degree_plan degree) {
+Student::Student(string student_ID, string first_name, string last_name, string email, int age, int complete_num_days[], Degree_plan degree) {
     this->student_ID = student_ID;
     this->first_name = first_name;
     this->last_name = last_name;
@@ -11,6 +11,9 @@ Student::Student(string student_ID, string first_name, string last_name, string 
     this->age = age;
     this->complete_num_days;
 
+    for(int i = 0; i < 3; i++) {
+        complete_num_days[i] = complete_num_days[i];
+    }
 }
 
 Student::Student(){
@@ -96,10 +99,10 @@ void Student::print() {
     if(get_degree_plan() == SECURITY) {
         degreePlan = "SECURITY";
     }
-    if(get_degree_plan() == NETWORKING) {
+    else if(get_degree_plan() == NETWORKING) {
         degreePlan = "NETWORKING";
     }
-    if(get_degree_plan() == SOFTWARE) {
+    else if(get_degree_plan() == SOFTWARE) {
         degreePlan = "SOFTWARE";
     } else {
        degreePlan = "INCORRECT DEGREE PLAN";
