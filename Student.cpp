@@ -62,28 +62,15 @@ int Student::get_age(){
     return age;
 }
 
-void Student::set_complete_num_days1(int complete_num_days) {
-    this->complete_num_days[0] = complete_num_days;
+void Student::set_complete_num_days(int complete_num_days[]) {
+    for (int i = 0; i < 3; i++) {
+        this->complete_num_days[i] = complete_num_days[i];
+    }
+    
 }
 
-int Student::get_complete_num_days1() {
-    return complete_num_days[0];
-}
-
-void Student::set_complete_num_days2(int complete_num_days) {
-    this->complete_num_days[1] = complete_num_days;
-}
-
-int Student::get_complete_num_days2() {
-    return complete_num_days[1];
-}
-
-void Student::set_complete_num_days3(int complete_num_days) {
-    this->complete_num_days[2] = complete_num_days;
-}
-
-int Student::get_complete_num_days3() {
-    return complete_num_days[2];
+int* Student::get_complete_num_days() const {
+    return complete_num_days;
 }
 
 void Student::set_degree_plan(Degree_plan degree) {
@@ -95,11 +82,13 @@ Degree_plan Student::get_degree_plan() {
 }
 
 void Student::print() {
+    int* days = get_complete_num_days();
+
     string degreePlan;
     if(get_degree_plan() == SECURITY) {
         degreePlan = "SECURITY";
     }
-    else if(get_degree_plan() == NETWORKING) {
+    else if(get_degree_plan() == NETWORK) {
         degreePlan = "NETWORKING";
     }
     else if(get_degree_plan() == SOFTWARE) {
@@ -109,8 +98,8 @@ void Student::print() {
     }
 
     cout <<"\t" << this->student_ID <<"\t" << this->first_name <<"\t"<< this->last_name <<
-    "\t" << this->email << "\t"<< "{" << this->complete_num_days[0] << "\t" << this->complete_num_days[1] <<
-    "\t" << this->complete_num_days[2] << "}" << "\t" << degreePlan << endl;
+    "\t" << this->email << "\t"<< "{" /*<< days[0] << "\t" << days[1] <<
+    "\t" << days[2] <<*/ "}" << "\t" << degreePlan << endl;
 }
 
 

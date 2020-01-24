@@ -8,7 +8,7 @@
 
 
 enum Degree_plan {
-        SECURITY, NETWORKING, SOFTWARE
+        SECURITY, NETWORK, SOFTWARE
     };
 
 

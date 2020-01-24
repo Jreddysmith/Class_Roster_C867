@@ -44,14 +44,8 @@ public:
     void set_age(int age);
     int get_age();
 
-    void set_complete_num_days1(int complete_num_days);
-    int get_complete_num_days1();
-
-    void set_complete_num_days2(int complete_num_days);
-    int get_complete_num_days2();
-
-    void set_complete_num_days3(int complete_num_days);
-    int get_complete_num_days3();
+    void set_complete_num_days(int complete_num_days[]);
+    int* get_complete_num_days() const;
 
     void set_degree_plan(Degree_plan degree);
     virtual Degree_plan get_degree_plan() = 0;

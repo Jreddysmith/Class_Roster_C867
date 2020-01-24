@@ -7,7 +7,7 @@
 class NetworkStudent : public Student {
 
 protected:
-    Degree_plan degree = NETWORKING;
+    Degree_plan degree = NETWORK;
 
 public:
 

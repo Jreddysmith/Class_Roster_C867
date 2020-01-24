@@ -9,16 +9,17 @@
 #include <string>
 
 using namespace std;
-
+/*
 void Roster::printDaysInCourse(string studentID) {
     for(int i = 0; i < student_count; i++) {
         if(classRosterArray[i]->get_student_id() == studentID) {
-            cout << "Days in course: " << "{" << classRosterArray[i]->get_complete_num_days1() +
-            classRosterArray[i]->get_complete_num_days2() + classRosterArray[i]->get_complete_num_days3() << "}" << endl;
+            cout << "Days in course: " << "{" << classRosterArray[i]->get_complete_num_days[0] + classRosterArray[i]->get_complete_num_days[1]
+                + classRosterArray[i]->get_complete_num_days[2] << "}" << endl;
         }
     }
 
 }
+*/
 
 bool emailValidate (string email) {
     const regex pattern
@@ -30,9 +31,9 @@ void Roster::printInvalidEmails() {
     cout << "Printing invalid emails in array.";
     for(int i = 0; i < student_count; i++) {
         if(emailValidate(classRosterArray[i]->get_email())) {
-            cout << classRosterArray[i]->get_email() << "Valid Email";
+            cout << classRosterArray[i]->get_email() << " Valid Email\n" << endl;
         } else {
-            cout << classRosterArray[i]->get_email() << "Invalid Email";
+            cout << classRosterArray[i]->get_email() << " Invalid Email\n" << endl;
         }
     }
 }
@@ -53,17 +54,17 @@ void Roster::add(string student_ID, string first_name, string last_name, string 
 
     if(degree == SECURITY){
         student = new SecurityStudent(student_ID, first_name, last_name, email, age, complete_num_days, degree);
-        cout << "Security student saved successful" << endl;
+        cout << "Security student saved successful\n" << endl;
     }
-    else if(degree == NETWORKING) {
+    else if(degree == NETWORK) {
         student = new NetworkStudent(student_ID, first_name, last_name, email, age, complete_num_days, degree);
-        cout << "Networking student saved successful" << endl;
+        cout << "Networking student saved successful\n" << endl;
     }
     else if(degree == SOFTWARE) {
         student = new NetworkStudent(student_ID, first_name, last_name, email, age, complete_num_days, degree);
-        cout << "Software student saved successful" << endl;
+        cout << "Software student saved successful\n" << endl;
     } else {
-        cout << "Did not save student" << endl;
+        cout << "Did not save student\n" << endl;
     }
 
     for (int i = 0; i < student_count; i++) {
@@ -79,11 +80,11 @@ void Roster::remove(string studentID) {
     for(int i = 0; i < student_count; i++) {
         if(classRosterArray[i]->get_student_id() == studentID) {
             classRosterArray[i] = nullptr;
-            cout << "You have just removed student" << endl;
-        } else {
-            cout << "That StudentID does not exist" << endl;
+            cout << "You have just removed student\n" << endl;
+            return;
         }
     }
+    cout << "That StudentID does not exist\n" << endl;
 
 }
 
@@ -91,24 +92,45 @@ void Roster::remove(string studentID) {
 void Roster::printAll() {
     cout << "Printing all Students in array" << endl;
     for(int i = 0; i < student_count; i++) {
-        classRosterArray[i]->print();
+        /* If statement for nullptr making program crash*/
+        if (classRosterArray[i] != nullptr) {
+            classRosterArray[i]->print();
+        }        
     }
 }
+
 
 Roster::~Roster() = default;
 
 
 int main() {
+    Roster classRoster;
+    Degree_plan degree;
+    
+    classRoster.add("A1", "John", "Smith", "John1989@gm ail.com", 20, 30, 35, 40, SECURITY);
+    classRoster.add("A2","Suzan","Erickson" ,"Erickson_1990@gmailcom", 19,50,30,40, NETWORK);
+    classRoster.add("A3","Jack","Napoli","The_lawyer99yahoo.com" ,19,20,40,33,SOFTWARE);
+    classRoster.add("A4","Erin","Black","Erin.black@comcast.net",22,50,58,40,SECURITY);
+    classRoster.add("A5","Jarred","Smith","jsm1481@wgu.edu",33,10,20,30,SOFTWARE);
+
+
     cout << "====Class Roster====" << endl;
     cout << "====SCRIPTING AND PROGRAMMING APPLICATIONS — C867====" << endl;
     cout << "====C++" << "Student ID: #000936781" << " Name: Jarred Smith====" << endl;
-
-    Roster classRoster;
-    Degree_plan degree;
-
-
+    cout << "=== Student Data Table ===" << endl;
+    cout << "=== Student ID==First Name==Last Name==Email==Age==Days in Course==Degree ===" << endl;
     classRoster.printAll();
 
+    cout << "=============================================================================";
+
+    classRoster.printInvalidEmails();
+    /*classRoster.printDaysInCourse("A2");*/
+    /*classRoster.printByDegreeProgram(SOFTWARE);*/
+    classRoster.remove("A3");
+   /* classRoster.remove("A3");*/
+
+
+    classRoster.~Roster();
     system("PAUSE");
 
     return 0;
