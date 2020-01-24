@@ -28,7 +28,7 @@ bool emailValidate (string email) {
 }
 
 void Roster::printInvalidEmails() {
-    cout << "Printing invalid emails in array.";
+    cout << "Printing invalid emails in array." << endl;
     for(int i = 0; i < student_count; i++) {
         if(emailValidate(classRosterArray[i]->get_email())) {
             cout << classRosterArray[i]->get_email() << " Valid Email\n" << endl;
@@ -40,6 +40,7 @@ void Roster::printInvalidEmails() {
 
 void Roster::printByDegreeProgram(int degreeProgram) {
     cout << "Printing Matching Degree Program" << endl;
+    cout << degreeProgram << endl;
     for(int i = 0; i < student_count; i++ ) {
         if (classRosterArray[i]->get_degree_plan() == degreeProgram) {
             classRosterArray[i]->print();
@@ -77,14 +78,19 @@ void Roster::add(string student_ID, string first_name, string last_name, string 
 
 void Roster::remove(string studentID) {
     cout << "Removing Student in array" << endl;
+    bool removed = false;
     for(int i = 0; i < student_count; i++) {
         if(classRosterArray[i]->get_student_id() == studentID) {
             classRosterArray[i] = nullptr;
             cout << "You have just removed student\n" << endl;
+            removed = true;
             return;
         }
     }
-    cout << "That StudentID does not exist\n" << endl;
+    if (removed == false) {
+        cout << "That StudentID does not exist\n" << endl;
+    }
+    
 
 }
 
@@ -105,7 +111,6 @@ Roster::~Roster() = default;
 
 int main() {
     Roster classRoster;
-    Degree_plan degree;
     
     classRoster.add("A1", "John", "Smith", "John1989@gm ail.com", 20, 30, 35, 40, SECURITY);
     classRoster.add("A2","Suzan","Erickson" ,"Erickson_1990@gmailcom", 19,50,30,40, NETWORK);
@@ -121,13 +126,13 @@ int main() {
     cout << "=== Student ID==First Name==Last Name==Email==Age==Days in Course==Degree ===" << endl;
     classRoster.printAll();
 
-    cout << "=============================================================================";
+    cout << "=============================================================================\n";
 
     classRoster.printInvalidEmails();
     /*classRoster.printDaysInCourse("A2");*/
-    /*classRoster.printByDegreeProgram(SOFTWARE);*/
+    classRoster.printByDegreeProgram(SOFTWARE);
     classRoster.remove("A3");
-   /* classRoster.remove("A3");*/
+    classRoster.remove("A3");
 
 
     classRoster.~Roster();
