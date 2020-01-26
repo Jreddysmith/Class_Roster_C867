@@ -3,22 +3,16 @@
 #include <iostream>
 #include <string>
 
-Student::Student(string student_ID, string first_name, string last_name, string email, int age, int complete_num_days[], Degree_plan degree) {
-    this->student_ID = student_ID;
-    this->first_name = first_name;
-    this->last_name = last_name;
-    this->email = email;
-    this->age = age;
-    this->complete_num_days;
-
-    for(int i = 0; i < 3; i++) {
-        complete_num_days[i] = complete_num_days[i];
-    }
+Student::Student(string student_ID, string first_name, string last_name, string email, int age, int days[3], Degree_plan degree) {
+    set_student_id(student_ID);
+    set_first_name(first_name);
+    set_last_name(last_name);
+    set_email(email);
+    set_age(age);
+    set_complete_num_days(days);
+    set_degree_plan(degree);
 }
 
-Student::Student(){
-
-};
 
 Student::~Student() = default;
 
@@ -62,14 +56,14 @@ int Student::get_age(){
     return age;
 }
 
-void Student::set_complete_num_days(int complete_num_days[]) {
+void Student::set_complete_num_days(int *days) {
     for (int i = 0; i < 3; i++) {
-        this->complete_num_days[i] = complete_num_days[i];
+        this->complete_num_days[i] = days[i];
     }
     
 }
 
-int* Student::get_complete_num_days() const {
+const int* Student::get_complete_num_days() const {
     return complete_num_days;
 }
 
@@ -82,7 +76,6 @@ Degree_plan Student::get_degree_plan() {
 }
 
 void Student::print() {
-    int* days = get_complete_num_days();
 
     string degreePlan;
     if(get_degree_plan() == SECURITY) {
@@ -97,9 +90,9 @@ void Student::print() {
        degreePlan = "INCORRECT DEGREE PLAN";
     }
 
-    cout <<"\t" << this->student_ID <<"\t" << this->first_name <<"\t"<< this->last_name <<
-    "\t" << this->email << "\t"<< "{" /*<< days[0] << "\t" << days[1] <<
-    "\t" << days[2] <<*/ "}" << "\t" << degreePlan << endl;
+    cout <<"\t" << get_student_id() <<"\t" << get_first_name() <<"\t"<< get_last_name() <<
+    "\t" << get_email() <<"\t"<< get_age() <<"\t"<< get_complete_num_days()[0] <<","<<"\t" << get_complete_num_days()[1] <<","<<
+    "\t" << get_complete_num_days()[2] << "\t" << degreePlan << endl;
 }
 
 

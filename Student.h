@@ -17,12 +17,11 @@ public:
     string last_name;
     string email;
     int age;
-    int* complete_num_days;
+    int complete_num_days[3];
     Degree_plan degree;
 
 
-    Student();
-    Student(string student_ID, string first_name, string last_name, string email, int age, int complete_num_days[], Degree_plan degree);
+    Student(string student_ID, string first_name, string last_name, string email, int age, int days[3], Degree_plan degree);
     ~Student();
 
 
@@ -44,8 +43,8 @@ public:
     void set_age(int age);
     int get_age();
 
-    void set_complete_num_days(int complete_num_days[]);
-    int* get_complete_num_days() const;
+    void set_complete_num_days(int*);
+    const int *get_complete_num_days() const;
 
     void set_degree_plan(Degree_plan degree);
     virtual Degree_plan get_degree_plan() = 0;

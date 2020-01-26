@@ -9,17 +9,18 @@
 #include <string>
 
 using namespace std;
-/*
+
 void Roster::printDaysInCourse(string studentID) {
     for(int i = 0; i < student_count; i++) {
         if(classRosterArray[i]->get_student_id() == studentID) {
-            cout << "Days in course: " << "{" << classRosterArray[i]->get_complete_num_days[0] + classRosterArray[i]->get_complete_num_days[1]
-                + classRosterArray[i]->get_complete_num_days[2] << "}" << endl;
+            const int *classes = classRosterArray[i]->get_complete_num_days();
+            int average = (classes[0] + classes[1] + classes[2]) / 3;
+            cout << "Average days in course: " << average << endl;
         }
     }
 
 }
-*/
+
 
 bool emailValidate (string email) {
     const regex pattern
@@ -42,17 +43,18 @@ void Roster::printByDegreeProgram(int degreeProgram) {
     cout << "Printing Matching Degree Program" << endl;
     cout << degreeProgram << endl;
     for(int i = 0; i < student_count; i++ ) {
-        if (classRosterArray[i]->get_degree_plan() == degreeProgram) {
-            classRosterArray[i]->print();
-        }
+        cout << classRosterArray[i]->get_degree_plan() << endl;
+            if (classRosterArray[i]->get_degree_plan() == degreeProgram) {
+                classRosterArray[i]->print();
+            }
     }
 }
 
 void Roster::add(string student_ID, string first_name, string last_name, string email, int age, int set_complete_num_days1, int set_complete_num_days2, int set_complete_num_days3, Degree_plan degree) {
     cout << "Adding student to roster" << endl;
-    int complete_num_days[] = {set_complete_num_days1, set_complete_num_days2, set_complete_num_days3};
+    int complete_num_days[3] = {set_complete_num_days1, set_complete_num_days2, set_complete_num_days3};
     Student* student = nullptr;
-
+   
     if(degree == SECURITY){
         student = new SecurityStudent(student_ID, first_name, last_name, email, age, complete_num_days, degree);
         cout << "Security student saved successful\n" << endl;
@@ -80,17 +82,18 @@ void Roster::remove(string studentID) {
     cout << "Removing Student in array" << endl;
     bool removed = false;
     for(int i = 0; i < student_count; i++) {
-        if(classRosterArray[i]->get_student_id() == studentID) {
-            classRosterArray[i] = nullptr;
-            cout << "You have just removed student\n" << endl;
-            removed = true;
-            return;
+        if (classRosterArray[i] != NULL) {
+            if (classRosterArray[i]->get_student_id() == studentID) {
+                classRosterArray[i] = nullptr;
+                removed = true;
+                cout << "You have just removed student\n" << endl;
+                return;
+            }
         }
     }
-    if (removed == false) {
+    if (!removed) {
         cout << "That StudentID does not exist\n" << endl;
     }
-    
 
 }
 
@@ -111,6 +114,7 @@ Roster::~Roster() = default;
 
 int main() {
     Roster classRoster;
+    Degree_plan degree;
     
     classRoster.add("A1", "John", "Smith", "John1989@gm ail.com", 20, 30, 35, 40, SECURITY);
     classRoster.add("A2","Suzan","Erickson" ,"Erickson_1990@gmailcom", 19,50,30,40, NETWORK);
@@ -129,7 +133,7 @@ int main() {
     cout << "=============================================================================\n";
 
     classRoster.printInvalidEmails();
-    /*classRoster.printDaysInCourse("A2");*/
+    classRoster.printDaysInCourse("A2");
     classRoster.printByDegreeProgram(SOFTWARE);
     classRoster.remove("A3");
     classRoster.remove("A3");
