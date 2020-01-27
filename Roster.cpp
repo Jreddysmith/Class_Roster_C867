@@ -41,9 +41,7 @@ void Roster::printInvalidEmails() {
 
 void Roster::printByDegreeProgram(int degreeProgram) {
     cout << "Printing Matching Degree Program" << endl;
-    cout << degreeProgram << endl;
     for(int i = 0; i < student_count; i++ ) {
-        cout << classRosterArray[i]->get_degree_plan() << endl;
             if (classRosterArray[i]->get_degree_plan() == degreeProgram) {
                 classRosterArray[i]->print();
             }
@@ -64,7 +62,7 @@ void Roster::add(string student_ID, string first_name, string last_name, string 
         cout << "Networking student saved successful\n" << endl;
     }
     else if(degree == SOFTWARE) {
-        student = new NetworkStudent(student_ID, first_name, last_name, email, age, complete_num_days, degree);
+        student = new SoftwareStudent(student_ID, first_name, last_name, email, age, complete_num_days, degree);
         cout << "Software student saved successful\n" << endl;
     } else {
         cout << "Did not save student\n" << endl;
