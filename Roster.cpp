@@ -7,6 +7,7 @@
 #include <regex>
 #include <iostream>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -111,16 +112,44 @@ Roster::~Roster() = default;
 
 
 int main() {
+
+    /*const string studentData[] =
+    { "A1,John,Smith,John1989@gm ail.com,20,30,35,40,SECURITY",
+     "A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
+     "A3,Jack,Napoli,The_lawyer99yahoo.com,19,20,40,33,SOFTWARE",
+     "A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
+     "A5,Jarred,Smith,jsm1481@wgu.edu,33,10,20,30,SOFTWARE"
+    };*/
+
     Roster classRoster;
     Degree_plan degree;
+
+    for (int i = 0; i < student_count; i++) {
+        string data = studentData[i];
+        istringstream ss(data);
+        string token;
+        string temp[9];
+
+        int x = 0;
+        while (getline(ss, token, ',')) {
+            temp[x] = token;
+            x += 1;
+        }
+
+        if (temp[8] == "SECURITY") {
+            classRoster.add(temp[0], temp[1], temp[2], temp[3], stoi(temp[4]),
+                stoi(temp[5]), stoi(temp[6]), stoi(temp[7]), SECURITY);
+        }
+        else if (temp[8] == "NETWORK") {
+            classRoster.add(temp[0], temp[1], temp[2], temp[3], stoi(temp[4]),
+                stoi(temp[5]), stoi(temp[6]), stoi(temp[7]), NETWORK);
+        }
+        else if (temp[8] == "SOFTWARE") {
+             classRoster.add(temp[0], temp[1], temp[2], temp[3], stoi(temp[4]),
+                stoi(temp[5]), stoi(temp[6]), stoi(temp[7]), SECURITY);
+        }
+    }
     
-    classRoster.add("A1", "John", "Smith", "John1989@gm ail.com", 20, 30, 35, 40, SECURITY);
-    classRoster.add("A2","Suzan","Erickson" ,"Erickson_1990@gmailcom", 19,50,30,40, NETWORK);
-    classRoster.add("A3","Jack","Napoli","The_lawyer99yahoo.com" ,19,20,40,33,SOFTWARE);
-    classRoster.add("A4","Erin","Black","Erin.black@comcast.net",22,50,58,40,SECURITY);
-    classRoster.add("A5","Jarred","Smith","jsm1481@wgu.edu",33,10,20,30,SOFTWARE);
-
-
     cout << "====Class Roster====" << endl;
     cout << "====SCRIPTING AND PROGRAMMING APPLICATIONS — C867====" << endl;
     cout << "====C++" << "Student ID: #000936781" << " Name: Jarred Smith====" << endl;
@@ -135,6 +164,7 @@ int main() {
     classRoster.printByDegreeProgram(SOFTWARE);
     classRoster.remove("A3");
     classRoster.remove("A3");
+    classRoster.printAll();
 
 
     classRoster.~Roster();
